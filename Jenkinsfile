@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'docker && t2.micro'
+        label 'docker && t2large'
     }
     environment {
         CI = 'true'
